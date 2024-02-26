@@ -7,6 +7,68 @@
 </head>
 <body>
     <h1><u>Self Practice : Arrays : JS</u></h1>
+    <h4>Arrays in JS :  Collections of items</h4>
+    <p> This is basically kind of Object. In the object we stored different data under one single variable. We do the same thing in Array which is more prefered method in JS in terms of when you will work for big data.</p>
+    <p>So we just made a collection of item under one umbrella(variable)</p>
+    <pre>
+         <u>Example of basic Arrays</u>
+
+        1. let vegetables = ["Caroot","Brocoli","Tomatoo","Spinach","Cucumber" ]
+        console.log(vegetables);
+        console.log(vegetables.length);
+        
+        // This is basically to see the length of the arrays information. Here it will be 5  as there are 5 vegetables item.
+        //Also length works as a property in JS which will show the value. 
+        
+        2.let marks = [50, 70, 80, 80, 40]
+        console.log(marks);
+        console.log(marks.length);
+    </pre>
+    <h5>Array indices(indices is plural of index)</h5>
+      arr[0], arr[1], arr[2] ....
+<p>Array : Mutable. Means we can change anything inside the arrays in JS</p>
+<p> String : Immutable. But for string in JS we can not change anything which is written in string form.</p>
+<pre>
+ using array we can change anything as per our need. Example given below.
+
+Example 1: 
+
+    let marks = [50, 70, 80, 80, 40]
+    marks[1] = 20
+    console.log(marks);//Here 70 changes to 20. As per index no 70 is in 1 serial/position. So we put serial 1 inside the array under the same variable name and mention the required new no
+
+Example : 2
+
+    let vegetables = ["Caroot","Brocoli","Tomatoo","Spinach","Cucumber" ]
+    vegetables[2] = "Potatoo"
+    console.log(vegetables);// Here Tomatoo replaced by the Potatoo
+</pre>
+
+<h3>Loop in Arrays</h3>
+<p>Print all elements of an array. Wed can use diffierent kinf og lopp to print all element inside the array together</p>
+<pre>
+How to use loop in arrays
+
+<b>for loop</b>
+
+Example : 
+
+let cities = ["Helsinki", "Tampere", "Oulu", "Turku"]
+for (let index = 0; index < cities.length; index++) {
+    console.log(cities[2]);
+    
+}
+
+<b>for-of loop</b>
+
+Example : 
+
+let cities = ["Helsinki", "Tampere", "Oulu", "Turku"]
+for (let city of cities) {
+    console.log(city);
+}
+</pre>
+
 
 
 
