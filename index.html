@@ -118,7 +118,42 @@ console.log("avg marks of the class = ", avg);
 
 </pre>
 
+<h2>Arrays Method</h2>
 
+<pre>
+   1. push( ) : add to end
+   2. pop( ) : delete from end & return
+   3. toString( ) : converts array to string
+   4. concat( ) : joins multiple arrays & returns result
+   5. unshift( ) : add to start
+   6. shift( ) : delete from start & return// This works same as pop method
+   7. slice( ) : returns a piece of the array
+   8. splice( ) : change original array (add, remove, replace)
+   9. slice( startIdx, endIdx )
+   10.splice( startIdx, delCount, newEl1... )
+
+   Note : Difference between push and unshift is, by push we can add anythin in the end, but by unshift we can add anything in the start. 
+   Note : Difference between pop and shift is, by push we can delete anythin in the end, but by shift we can add anything in the start. 
+</pre>
+<h4>Lets Practice</h4>
+<p>Create an array to store companies -> “Bloomberg”,“Microsoft”,“Uber”,“Google”,“IBM”,“Netflix”</p>
+<p> Task 1 : Remove the first company from the array</p>
+<p> Task 2 : Remove Uber & Add Ola in its place</p>
+<p> Task 3 : Add Amazon at the end</p>
+
+<h4><u>Solution</u></h4>
+<pre>
+    let companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix" ]
+    //console.log(companies);
+    //companies.shift()
+    
+    //companies.splice(2, 1, "ola")
+    //console.log(companies);
+    
+    //companies.push("Amazon")
+    //console.log(companies);
+
+</pre>
 
 
 

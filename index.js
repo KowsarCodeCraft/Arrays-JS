@@ -63,16 +63,26 @@
 //}
 
 //Using for loop
-let items = [280, 800, 3000, 1580, 170];
+//let items = [280, 800, 3000, 1580, 170];
 
-for (let i = 0; i < items.length; i++) {
-    let offer = items[i] / 10;
-    items[i] = items[i] - offer
+//for (let i = 0; i < items.length; i++) {
+    //let offer = items[i] / 10;
+    //items[i] = items[i] - offer
     //items[i] -=  offer// this is second option write a code
-}
-console.log(items);
+//}
+//console.log(items);
 
+// Using diffrent array method
 
+let companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix" ]
+//console.log(companies);
+//companies.shift()
+
+//companies.splice(2, 1, "ola")
+//console.log(companies);
+
+//companies.push("Amazon")
+//console.log(companies);
 
 
 
